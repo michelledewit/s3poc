@@ -1,0 +1,30 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+
+}
+
+.form > *{
+    margin-top: 30px;
+    width: 100%;
+}
+
+ .form > div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+} 
+.flex{
+    width: 50vw;
+    display:flex;
+    flex-direction: column;
+}
+
+.createBtn{
+    margin-top: 30px;
+    width: 100%;
+}

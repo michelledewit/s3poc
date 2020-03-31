@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Groep aanmaken</title>
+
+</head>
+<body>
+
+    <div class="flex">
+        <div class="form">
+            <input type="text" id="groupname" placeholder="Group Name">
+
+            <div>
+                <div><input type="radio" name="marathon" value="10">10 km</div> 
+                <div><input type="radio" name="marathon" value="20">20 km</div> 
+                <div><input type="radio" name="marathon" value="40">40 km</div> 
+            </div>
+
+            <input type="number" min="2" max="10" id="groupsizeMin" placeholder="Min Groupsize">
+            <input type="number" min="2" max="10" id="groupsizeMax" placeholder="Max Groupsize">
+        
+
+            <button id="createBtn">Create</button>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
+
+<!-- 
+[
+    {
+        "name":"Bigboys",
+        "groupsize":3,
+        "marathon":10
+    }
+    {
+        "name":"Bigboys",
+        "groupsize":3,
+        "marathon":10
+    }
+    {
+        "name":"Bigboys",
+        "groupsize":3,
+        "marathon":10
+    }
+] -->
